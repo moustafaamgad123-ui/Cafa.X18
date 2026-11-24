@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe.X18 — منيو الكافيه</title>
+  <style>
+    * { box-sizing: border-box; font-family: Tahoma, Arial, sans-serif; }
+    body { margin: 0; background: #120f0d; color: #f6efe6; padding: 16px; }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .hero { background: linear-gradient(135deg, #2a1a10, #4b2d19); border: 1px solid #704528; border-radius: 16px; padding: 20px; text-align: center; margin-bottom: 18px; }
+    .hero h1 { margin: 0 0 6px; font-size: 26px; color: #ffd082; letter-spacing: 0.5px; }
+    .hero p { margin: 0; color: #e5d4be; font-size: 14px; }
+    .box { background: #1c1612; border: 1px solid #35271e; border-radius: 14px; padding: 18px; }
+    .box h2 { margin: 0 0 12px; font-size: 18px; color: #ffca7a; border-bottom: 1px solid #35271e; padding-bottom: 8px; }
+    .cat { color: #ffb347; font-weight: bold; font-size: 15px; margin: 14px 0 6px; }
+    .row { display: flex; justify-content: space-between; align-items: center; padding: 7px 4px; border-bottom: 1px dashed #2d221b; font-size: 14px; }
+    .price { color: #7cd992; font-weight: bold; }
+    .cafe-footer { text-align: center; margin-top: 16px; padding: 14px; background: #1c1612; border: 1px solid #35271e; border-radius: 14px; color: #ffd082; font-weight: bold; font-size: 18px; letter-spacing: 0.5px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Cafe.X18</h1>
+      <p>قائمة المشروبات والديزرت</p>
+    </div>
+
+    <div class="box">
+      <h2>قائمة المنيو</h2>
+
+      <div class="cat">ديزرت</div>
+      <div class="row"><span>تشيز كيك</span><span class="price">60</span></div>
+      <div class="row"><span>وافل نوتيلا</span><span class="price">50</span></div>
+      <div class="row"><span>وافل لوتس</span><span class="price">50</span></div>
+      <div class="row"><span>وافل وايت شوكلت</span><span class="price">50</span></div>
+      <div class="row"><span>وافل بيستاشيو</span><span class="price">60</span></div>
+
+      <div class="cat">ركن القهوة</div>
+      <div class="row"><span>قهوة تركي</span><span class="price">25</span></div>
+      <div class="row"><span>قهوة فرنساوي</span><span class="price">40</span></div>
+      <div class="row"><span>قهوة بندق</span><span class="price">45</span></div>
+      <div class="row"><span>قهوة إسبريسو</span><span class="price">40</span></div>
+      <div class="row"><span>دبل إسبريسو</span><span class="price">60</span></div>
+
+      <div class="cat">سوفت درينك</div>
+      <div class="row"><span>كانز</span><span class="price">25</span></div>
+      <div class="row"><span>ستينج</span><span class="price">25</span></div>
+      <div class="row"><span>بريل</span><span class="price">30</span></div>
+      <div class="row"><span>ريد بول</span><span class="price">80</span></div>
+      <div class="row"><span>مياه</span><span class="price">10</span></div>
+
+      <div class="cat">مشاريب سخنة</div>
+      <div class="row"><span>شاي</span><span class="price">15</span></div>
+      <div class="row"><span>كابتشينو حليب</span><span class="price">55</span></div>
+      <div class="row"><span>شاي فواكة</span><span class="price">20</span></div>
+      <div class="row"><span>هوت شوكلت</span><span class="price">40</span></div>
+      <div class="row"><span>ينسون</span><span class="price">15</span></div>
+      <div class="row"><span>ليمون سخن</span><span class="price">15</span></div>
+      <div class="row"><span>كركاديه</span><span class="price">20</span></div>
+      <div class="row"><span>نعناع</span><span class="price">15</span></div>
+      <div class="row"><span>نسكافية</span><span class="price">30</span></div>
+      <div class="row"><span>حلبة</span><span class="price">20</span></div>
+      <div class="row"><span>نسكافية حليب</span><span class="price">40</span></div>
+      <div class="row"><span>جنزبيل</span><span class="price">15</span></div>
+      <div class="row"><span>حليب</span><span class="price">50</span></div>
+      <div class="row"><span>قرفة</span><span class="price">15</span></div>
+      <div class="row"><span>كابتشينو</span><span class="price">40</span></div>
+      <div class="row"><span>نسكافية بلاك</span><span class="price">20</span></div>
+
+      <div class="cat">عصائر فريش</div>
+      <div class="row"><span>فراولة</span><span class="price">40</span></div>
+      <div class="row"><span>مانجا</span><span class="price">40</span></div>
+      <div class="row"><span>جوافة</span><span class="price">40</span></div>
+      <div class="row"><span>برتقال</span><span class="price">40</span></div>
+      <div class="row"><span>موز</span><span class="price">40</span></div>
+
+      <div class="cat">آيس كوفي</div>
+      <div class="row"><span>آيس لاتيه</span><span class="price">50</span></div>
+      <div class="row"><span>آيس سبانش لاتيه</span><span class="price">60</span></div>
+      <div class="row"><span>آيس موكا</span><span class="price">60</span></div>
+      <div class="row"><span>آيس موكا وايت</span><span class="price">60</span></div>
+      <div class="row"><span>فرابتشينو</span><span class="price">60</span></div>
+
+      <div class="cat">ميلك شيك</div>
+      <div class="row"><span>ميلك شيك شوكلت</span><span class="price">50</span></div>
+      <div class="row"><span>ميلك شيك أوريو</span><span class="price">60</span></div>
+      <div class="row"><span>ميلك شيك كراميل</span><span class="price">50</span></div>
+      <div class="row"><span>ميلك شيك فراولة</span><span class="price">55</span></div>
+      <div class="row"><span>ميلك شيك مانجا</span><span class="price">55</span></div>
+      <div class="row"><span>ميلك شيك لوتس</span><span class="price">60</span></div>
+    </div>
+
+    <div class="cafe-footer">Cafe.X18</div>
+  </div>
+</body>
+</html>
